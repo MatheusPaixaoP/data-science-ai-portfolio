@@ -7,12 +7,14 @@
 ---
 
 ## 📌 About Me & Core Focus
-I am a **Data Scientist & AI Specialist** focused on driving business value through data-driven intelligence, predictive modeling, applied statistics, and end-to-end Machine Learning pipelines.
+I am a **Data Scientist & AI Specialist** focused on driving business value through data-driven intelligence, predictive modeling, applied statistics, NLP feature engineering, and end-to-end Machine Learning pipelines.
 
-While my primary domain is **Data Science & AI in Data**, I also build specialized applications across **Computer Vision**, **Natural Language Processing (NLP)**, and **Statistical Econometrics**.
+While my primary domain is **Data Science & AI in Data**, I also build specialized applications across **Natural Language Processing (NLP)**, **Signal Optimization**, **Computer Vision**, and **Statistical Econometrics**.
 
 ```text
 ├── 📊 Data Science, Machine Learning & Predictive Analytics (Core Focus)
+├── 🌐 Natural Language Processing (NLP) & Feature Engineering
+├── 📡 Signal Processing & ML Dataset Optimization
 ├── 📈 Applied Statistics, Econometrics & Inferential Modeling
 ├── 🌲 Environmental Data Science & Remote Sensing Biometrics
 └── 👁️ Specialized AI Applications (Computer Vision & Deep Learning)
@@ -22,9 +24,27 @@ While my primary domain is **Data Science & AI in Data**, I also build specializ
 
 ## 🔬 Featured Projects
 
-### 📊 Data Science, Machine Learning & Analytics (Core Projects)
+### 📊 Data Science, Machine Learning & NLP Projects
 
-#### 1. 🚗 [Brazilian Used Car Price Prediction (FIPE Dataset)](./01-car-price-prediction-fipe)
+#### 1. 🌐 [Multi-Language NLP Text Classifier & Feature Engineering](./04-nlp-language-detection-feature-engineering)
+* **Goal:** Build an automated multi-language NLP classifier (English, Spanish, Portuguese) using custom Regex feature engineering.
+* **Key Achievements:**
+  * Engineered 17 custom linguistic features (word length, inverted Spanish punctuation `¿`/`¡`, cedillas `ç`, eñes `ñ`, suffixes `-ção`/`-ción`, contraction patterns, stopword ratios).
+  * Trained Support Vector Machine (SVM) classifier.
+  * **Top Result:** Achieved **~96.0% - 100% test accuracy** (exceeding target benchmarks).
+* **Stack:** `Python`, `NLP`, `Regex`, `Scikit-Learn (SVM)`, `Pandas`
+* **📁 Explore Project:** [View Code & Report](./04-nlp-language-detection-feature-engineering)
+
+#### 2. 📡 [Sonar Signal Classification & Dataset Optimization (UCI Sonar Dataset)](./05-sonar-signal-ml-optimization)
+* **Goal:** Optimize a Support Vector Machine pipeline to discriminate between metal cylinder mines and rocks using 60 continuous sonar return frequency channels.
+* **Key Achievements:**
+  * Applied `StandardScaler` feature normalization and ANOVA F-score feature selection (`SelectKBest`).
+  * Performed 5-Fold Stratified Cross-Validation grid search for hyperparameter tuning ($C$, $\gamma$, RBF vs. Linear kernels).
+  * **Top Result:** Boosted classification accuracy from baseline **74.6%** to **~88.9%** (+14.3% improvement).
+* **Stack:** `Python`, `Scikit-Learn (SVM, Pipeline, GridSearchCV)`, `Pandas`
+* **📁 Explore Project:** [View Code & Report](./05-sonar-signal-ml-optimization)
+
+#### 3. 🚗 [Brazilian Used Car Price Prediction (FIPE Dataset)](./01-car-price-prediction-fipe)
 * **Goal:** Predict vehicle market valuation in Brazil using FIPE benchmark data with Machine Learning regressors.
 * **Key Achievements:**
   * Cleaned 65k+ null records and performed extensive Exploratory Data Analysis (EDA).
@@ -34,7 +54,7 @@ While my primary domain is **Data Science & AI in Data**, I also build specializ
 * **Stack:** `Python`, `Pandas`, `Scikit-Learn`, `XGBoost`, `Jupyter`
 * **📁 Explore Project:** [View Code & Report](./01-car-price-prediction-fipe)
 
-#### 2. 📊 [Applied Statistical Inference & Regularized Econometric Wage Modeling](./03-applied-statistics-r)
+#### 4. 📊 [Applied Statistical Inference & Regularized Econometric Wage Modeling](./03-applied-statistics-r)
 * **Goal:** Perform non-parametric hypothesis testing and build regularized econometric models (Ridge, Lasso, ElasticNet) for log hourly wage estimation.
 * **Key Achievements:**
   * Evaluated non-parametric distributions using Shapiro-Wilk and Mann-Whitney U testing ($p < 0.0001$).
@@ -44,7 +64,7 @@ While my primary domain is **Data Science & AI in Data**, I also build specializ
 * **Stack:** `R`, `Glmnet`, `Caret`, `Stats`, `ggplot2`
 * **📁 Explore Project:** [View Code & Report](./03-applied-statistics-r)
 
-#### 3. 🛰️ [Environmental ML & Forestry Biometrics in R](./02-environmental-ml-and-forestry-r)
+#### 5. 🛰️ [Environmental ML & Forestry Biometrics in R](./02-environmental-ml-and-forestry-r)
 * **Goal:** Solve remote sensing satellite land cover classification and forestry timber volume estimation.
 * **Key Achievements:**
   * Multi-class classification on Landsat MSS satellite data using Random Forest (**91.20% Accuracy**).
@@ -70,6 +90,7 @@ While my primary domain is **Data Science & AI in Data**, I also build specializ
 ```text
 Languages     : Python, R, SQL, C++
 Data & ML     : Pandas, NumPy, Scikit-Learn, XGBoost, Caret, Random Forest, SVM, Glmnet
+NLP & Signals : Regex, Feature Engineering, Signal Scaling (StandardScaler), SelectKBest
 Statistics    : Hypothesis Testing, Non-Parametric Methods, Econometrics, Bootstrap CIs
 Deep Learning : PyTorch, TensorFlow, OpenCV, YOLO
 Visualization : Seaborn, Matplotlib, Plotly, ggplot2
