@@ -7,12 +7,13 @@
 ---
 
 ## 📌 About Me & Core Focus
-I am a **Data Scientist & AI Specialist** focused on driving business value through data-driven intelligence, predictive modeling, applied statistics, NLP feature engineering, and end-to-end Machine Learning pipelines.
+I am a **Data Scientist & AI Specialist** focused on driving business value through data-driven intelligence, predictive modeling, applied statistics, NLP feature engineering, signal optimization, and end-to-end Machine Learning pipelines.
 
 While my primary domain is **Data Science & AI in Data**, I also build specialized applications across **Natural Language Processing (NLP)**, **Signal Optimization**, **Computer Vision**, and **Statistical Econometrics**.
 
 ```text
 ├── 📊 Data Science, Machine Learning & Predictive Analytics (Core Focus)
+├── 🤖 End-to-End Supervised & Unsupervised Machine Learning Suite
 ├── 🌐 Natural Language Processing (NLP) & Feature Engineering
 ├── 📡 Signal Processing & ML Dataset Optimization
 ├── 📈 Applied Statistics, Econometrics & Inferential Modeling
@@ -24,47 +25,51 @@ While my primary domain is **Data Science & AI in Data**, I also build specializ
 
 ## 🔬 Featured Projects
 
-### 📊 Data Science, Machine Learning & NLP Projects
+### 📊 Data Science, Machine Learning & Analytics (Core Projects)
 
-#### 1. 🌐 [Multi-Language NLP Text Classifier & Feature Engineering](./04-nlp-language-detection-feature-engineering)
+#### 1. 🤖 [End-to-End Machine Learning & Data Mining Benchmarks in R](./06-machine-learning-benchmarks-r)
+* **Goal:** Comprehensive ML benchmark suite covering multi-class classification, binary diagnosis, continuous regression, K-Means clustering, and Apriori association rules.
+* **Key Achievements:**
+  * Benchmarked KNN, Neural Networks (`nnet`), SVM Radial, and Random Forest across Hold-out and 10-Fold Cross Validation.
+  * **Top Result:** Random Forest (10-Fold CV) achieved **100% Accuracy** on vehicle silhouette multi-class classification and **R² = 91.2%** on environmental biomass regression.
+* **Stack:** `R`, `Caret`, `Random Forest`, `SVM Radial`, `Neural Networks`, `Apriori`, `K-Means`
+* **📁 Explore Project:** [View Code & Report](./06-machine-learning-benchmarks-r)
+
+#### 2. 🌐 [Multi-Language NLP Text Classifier & Feature Engineering](./04-nlp-language-detection-feature-engineering)
 * **Goal:** Build an automated multi-language NLP classifier (English, Spanish, Portuguese) using custom Regex feature engineering.
 * **Key Achievements:**
   * Engineered 17 custom linguistic features (word length, inverted Spanish punctuation `¿`/`¡`, cedillas `ç`, eñes `ñ`, suffixes `-ção`/`-ción`, contraction patterns, stopword ratios).
-  * Trained Support Vector Machine (SVM) classifier.
-  * **Top Result:** Achieved **~96.0% - 100% test accuracy** (exceeding target benchmarks).
+  * **Top Result:** Achieved **~96.0% - 100% test accuracy** using Support Vector Machines (SVM).
 * **Stack:** `Python`, `NLP`, `Regex`, `Scikit-Learn (SVM)`, `Pandas`
 * **📁 Explore Project:** [View Code & Report](./04-nlp-language-detection-feature-engineering)
 
-#### 2. 📡 [Sonar Signal Classification & Dataset Optimization (UCI Sonar Dataset)](./05-sonar-signal-ml-optimization)
+#### 3. 📡 [Sonar Signal Classification & Dataset Optimization (UCI Sonar Dataset)](./05-sonar-signal-ml-optimization)
 * **Goal:** Optimize a Support Vector Machine pipeline to discriminate between metal cylinder mines and rocks using 60 continuous sonar return frequency channels.
 * **Key Achievements:**
-  * Applied `StandardScaler` feature normalization and ANOVA F-score feature selection (`SelectKBest`).
-  * Performed 5-Fold Stratified Cross-Validation grid search for hyperparameter tuning ($C$, $\gamma$, RBF vs. Linear kernels).
+  * Applied `StandardScaler` feature normalization, ANOVA F-score feature selection (`SelectKBest`), and 5-Fold Stratified CV grid search.
   * **Top Result:** Boosted classification accuracy from baseline **74.6%** to **~88.9%** (+14.3% improvement).
 * **Stack:** `Python`, `Scikit-Learn (SVM, Pipeline, GridSearchCV)`, `Pandas`
 * **📁 Explore Project:** [View Code & Report](./05-sonar-signal-ml-optimization)
 
-#### 3. 🚗 [Brazilian Used Car Price Prediction (FIPE Dataset)](./01-car-price-prediction-fipe)
+#### 4. 🚗 [Brazilian Used Car Price Prediction (FIPE Dataset)](./01-car-price-prediction-fipe)
 * **Goal:** Predict vehicle market valuation in Brazil using FIPE benchmark data with Machine Learning regressors.
 * **Key Achievements:**
   * Cleaned 65k+ null records and performed extensive Exploratory Data Analysis (EDA).
   * Feature engineered multi-class categorical variables (`engine_size`, `fuel`, `gear`).
-  * Benchmarked **Random Forest Regressor** and **XGBoost Regressor**.
-  * **Top Result:** Achieved **R² Score = 0.9602 (96.02% accuracy)** with Random Forest.
+  * **Top Result:** Achieved **R² Score = 0.9602 (96.02% accuracy)** with Random Forest Regressor.
 * **Stack:** `Python`, `Pandas`, `Scikit-Learn`, `XGBoost`, `Jupyter`
 * **📁 Explore Project:** [View Code & Report](./01-car-price-prediction-fipe)
 
-#### 4. 📊 [Applied Statistical Inference & Regularized Econometric Wage Modeling](./03-applied-statistics-r)
+#### 5. 📊 [Applied Statistical Inference & Regularized Econometric Wage Modeling](./03-applied-statistics-r)
 * **Goal:** Perform non-parametric hypothesis testing and build regularized econometric models (Ridge, Lasso, ElasticNet) for log hourly wage estimation.
 * **Key Achievements:**
   * Evaluated non-parametric distributions using Shapiro-Wilk and Mann-Whitney U testing ($p < 0.0001$).
-  * Built regularized regression models (**Ridge $\alpha=0$**, **Lasso $\alpha=1$**, **ElasticNet $\alpha=0.5$**).
   * Computed non-parametric **95% Bootstrap Confidence Intervals** ($n_{boot} = 1000$) for hourly wages.
   * **Top Result:** **Ridge Regression** yielded the lowest error ($RMSE = 0.40$, $R^2 = 34.18\%$).
 * **Stack:** `R`, `Glmnet`, `Caret`, `Stats`, `ggplot2`
 * **📁 Explore Project:** [View Code & Report](./03-applied-statistics-r)
 
-#### 5. 🛰️ [Environmental ML & Forestry Biometrics in R](./02-environmental-ml-and-forestry-r)
+#### 6. 🛰️ [Environmental ML & Forestry Biometrics in R](./02-environmental-ml-and-forestry-r)
 * **Goal:** Solve remote sensing satellite land cover classification and forestry timber volume estimation.
 * **Key Achievements:**
   * Multi-class classification on Landsat MSS satellite data using Random Forest (**91.20% Accuracy**).
@@ -89,8 +94,9 @@ While my primary domain is **Data Science & AI in Data**, I also build specializ
 
 ```text
 Languages     : Python, R, SQL, C++
-Data & ML     : Pandas, NumPy, Scikit-Learn, XGBoost, Caret, Random Forest, SVM, Glmnet
+Data & ML     : Pandas, NumPy, Scikit-Learn, XGBoost, Caret, Random Forest, SVM, Glmnet, nnet, nls
 NLP & Signals : Regex, Feature Engineering, Signal Scaling (StandardScaler), SelectKBest
+Unsupervised  : K-Means Clustering, Apriori Association Rules (arules)
 Statistics    : Hypothesis Testing, Non-Parametric Methods, Econometrics, Bootstrap CIs
 Deep Learning : PyTorch, TensorFlow, OpenCV, YOLO
 Visualization : Seaborn, Matplotlib, Plotly, ggplot2
