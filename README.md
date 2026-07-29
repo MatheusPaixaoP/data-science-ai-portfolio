@@ -80,13 +80,17 @@ While my primary domain is **Data Science & AI in Data**, I also build specializ
 
 ---
 
-### 👁️ Specialized AI & Computer Vision Projects (Dedicated Repositories)
-> *Highlighting specialized applications in computer vision, deep learning, and automated visual processing.*
+### 👁️ Specialized AI, Deep Learning & Computer Vision Hub (Dedicated Repository)
+> *Explore advanced implementations in Genetic Algorithms, Evolutionary Optimization, Neural Architectures (CNNs, LSTMs, GANs, Transformers), Recommender Engines, and Deep Computer Vision Feature Representations.*
 
-| Project | Description | Stack | Link |
+| Sub-Module / Domain | Description | Stack | Link |
 | :--- | :--- | :--- | :---: |
-| **Object Detection & Real-Time Tracking** | Multi-object tracking pipeline using YOLOv8 & OpenCV. | PyTorch, OpenCV, YOLO | 🚀 [View Repository](https://github.com/MatheusPaixaoP) |
-| **Industrial / Medical Image Segmentation** | Semantic image segmentation using U-Net architecture. | PyTorch, Albumentations | 🚀 [View Repository](https://github.com/MatheusPaixaoP) |
+| 🧬 **Genetic Algorithms (TSP & NLP PCA)** | 100-City TSP Genetic Optimization (+41.8% gain) & Word2Vec/FastText PCA Projections. | Python, Matplotlib, Gensim, Scikit-Learn | 🚀 [View Project](https://github.com/MatheusPaixaoP/ai-deep-learning-computer-vision-portfolio/tree/main/01-genetic-algorithms-tsp-and-nlp-embeddings-pca) |
+| 🧠 **Deep Learning Model Architectures** | CNNs, LSTMs, GANs, and Scaled Dot-Product Transformer Self-Attention blocks. | PyTorch, TensorFlow, Keras | 🚀 [View Project](https://github.com/MatheusPaixaoP/ai-deep-learning-computer-vision-portfolio/tree/main/02-deep-learning-architectures-cnn-rnn-gans-transformers) |
+| 🛠️ **Applied AI Frameworks Suite** | Collaborative Filtering Book Recommender & DeepDream Gradient Ascent activation maps. | PyTorch, TensorFlow, Scikit-Learn | 🚀 [View Project](https://github.com/MatheusPaixaoP/ai-deep-learning-computer-vision-portfolio/tree/main/03-ai-frameworks-recommendation-deepdream-neuralnets) |
+| 👁️ **Computer Vision (LBP vs VGG-16)** | LBP Micro-Texture Descriptors vs 4096-dim Deep VGG-16 Representations + Multi-Classifier Benchmark. | PyTorch, OpenCV, Scikit-Learn | 🚀 [View Project](https://github.com/MatheusPaixaoP/ai-deep-learning-computer-vision-portfolio/tree/main/04-computer-vision-lbp-vgg-feature-extraction) |
+
+👉 **Full Repository:** [ai-deep-learning-computer-vision-portfolio](https://github.com/MatheusPaixaoP/ai-deep-learning-computer-vision-portfolio)
 
 ---
 
