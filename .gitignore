@@ -41,3 +41,7 @@ npm-debug.log*
 Thumbs.db
 .vscode/
 .idea/
+
+# Dedicated 2nd Repository Directory
+ai-deep-learning-computer-vision-portfolio/
+
