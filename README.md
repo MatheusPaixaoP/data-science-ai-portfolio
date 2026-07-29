@@ -1,36 +1,28 @@
 # 🚀 Data Science, Machine Learning & AI Portfolio
 **Author:** Matheus Paixão  
-**Role:** Data Scientist / AI & Computer Vision Engineer  
+**Role:** Data Scientist | AI & Data Specialist  
 **Location:** Brazil  
-
-Welcome to my central portfolio repository! Here you will find end-to-end projects spanning **Computer Vision**, **Deep Learning**, **Predictive Analytics**, **Forestry Biometrics**, and **Statistical Machine Learning in Python & R**.
+**LinkedIn:** [Matheus Paixão](https://www.linkedin.com/in/matheus-paix%C3%A3o-5803b321b/?locale=pt) | **GitHub:** [@MatheusPaixaoP](https://github.com/MatheusPaixaoP)
 
 ---
 
-## 🌟 Portfolio Overview & Specialized Domains
+## 📌 About Me & Core Focus
+I am a **Data Scientist & AI Specialist** focused on driving business value through data-driven intelligence, predictive modeling, applied statistics, and end-to-end Machine Learning pipelines.
+
+While my primary domain is **Data Science & AI in Data**, I also build specialized applications across **Computer Vision**, **Natural Language Processing (NLP)**, and **Statistical Econometrics**.
 
 ```text
-├── 👁️  Computer Vision & Deep Learning (Flagship Projects - Dedicated Repositories)
-├── 📈 Predictive Analytics & Time Series Forecasting
-├── 🌲 Environmental Machine Learning & Forestry Biometrics (R & Python)
-└── 📊 Exploratory Data Analysis & Statistical Modeling
+├── 📊 Data Science, Machine Learning & Predictive Analytics (Core Focus)
+├── 📈 Applied Statistics, Econometrics & Inferential Modeling
+├── 🌲 Environmental Data Science & Remote Sensing Biometrics
+└── 👁️ Specialized AI Applications (Computer Vision & Deep Learning)
 ```
 
 ---
 
 ## 🔬 Featured Projects
 
-### 👁️ Computer Vision & Deep Learning (Flagship Projects)
-> *Dedicated repositories focused on real-world computer vision, object detection, and deep learning architectures.*
-
-| Project | Description | Stack | Link |
-| :--- | :--- | :--- | :---: |
-| **Object Detection & Real-Time Tracking** | Multi-object tracking pipeline using YOLOv8 & OpenCV. | PyTorch, OpenCV, YOLO | 🚀 [View Repository](https://github.com/MatheusPaixaoP) |
-| **Medical / Industrial Image Segmentation** | Semantic segmentation using U-Net architecture. | PyTorch, Albumentations | 🚀 [View Repository](https://github.com/MatheusPaixaoP) |
-
----
-
-### 📊 Data Science, Machine Learning & Environmental Analytics
+### 📊 Data Science, Machine Learning & Analytics (Core Projects)
 
 #### 1. 🚗 [Brazilian Used Car Price Prediction (FIPE Dataset)](./01-car-price-prediction-fipe)
 * **Goal:** Predict vehicle market valuation in Brazil using FIPE benchmark data with Machine Learning regressors.
@@ -42,7 +34,17 @@ Welcome to my central portfolio repository! Here you will find end-to-end projec
 * **Stack:** `Python`, `Pandas`, `Scikit-Learn`, `XGBoost`, `Jupyter`
 * **📁 Explore Project:** [View Code & Report](./01-car-price-prediction-fipe)
 
-#### 2. 🛰️ [Environmental ML & Forestry Biometrics in R](./02-environmental-ml-and-forestry-r)
+#### 2. 📊 [Applied Statistical Inference & Regularized Econometric Wage Modeling](./03-applied-statistics-r)
+* **Goal:** Perform non-parametric hypothesis testing and build regularized econometric models (Ridge, Lasso, ElasticNet) for log hourly wage estimation.
+* **Key Achievements:**
+  * Evaluated non-parametric distributions using Shapiro-Wilk and Mann-Whitney U testing ($p < 0.0001$).
+  * Built regularized regression models (**Ridge $\alpha=0$**, **Lasso $\alpha=1$**, **ElasticNet $\alpha=0.5$**).
+  * Computed non-parametric **95% Bootstrap Confidence Intervals** ($n_{boot} = 1000$) for hourly wages.
+  * **Top Result:** **Ridge Regression** yielded the lowest error ($RMSE = 0.40$, $R^2 = 34.18\%$).
+* **Stack:** `R`, `Glmnet`, `Caret`, `Stats`, `ggplot2`
+* **📁 Explore Project:** [View Code & Report](./03-applied-statistics-r)
+
+#### 3. 🛰️ [Environmental ML & Forestry Biometrics in R](./02-environmental-ml-and-forestry-r)
 * **Goal:** Solve remote sensing satellite land cover classification and forestry timber volume estimation.
 * **Key Achievements:**
   * Multi-class classification on Landsat MSS satellite data using Random Forest (**91.20% Accuracy**).
@@ -53,11 +55,22 @@ Welcome to my central portfolio repository! Here you will find end-to-end projec
 
 ---
 
+### 👁️ Specialized AI & Computer Vision Projects (Dedicated Repositories)
+> *Highlighting specialized applications in computer vision, deep learning, and automated visual processing.*
+
+| Project | Description | Stack | Link |
+| :--- | :--- | :--- | :---: |
+| **Object Detection & Real-Time Tracking** | Multi-object tracking pipeline using YOLOv8 & OpenCV. | PyTorch, OpenCV, YOLO | 🚀 [View Repository](https://github.com/MatheusPaixaoP) |
+| **Industrial / Medical Image Segmentation** | Semantic image segmentation using U-Net architecture. | PyTorch, Albumentations | 🚀 [View Repository](https://github.com/MatheusPaixaoP) |
+
+---
+
 ## 🛠️ Technical Skill Matrix
 
 ```text
 Languages     : Python, R, SQL, C++
-Data & ML     : Pandas, NumPy, Scikit-Learn, XGBoost, Caret, Random Forest, SVM
+Data & ML     : Pandas, NumPy, Scikit-Learn, XGBoost, Caret, Random Forest, SVM, Glmnet
+Statistics    : Hypothesis Testing, Non-Parametric Methods, Econometrics, Bootstrap CIs
 Deep Learning : PyTorch, TensorFlow, OpenCV, YOLO
 Visualization : Seaborn, Matplotlib, Plotly, ggplot2
 Tools & DevOps: Git, Docker, Jupyter, Linux, VS Code
@@ -67,8 +80,8 @@ Tools & DevOps: Git, Docker, Jupyter, Linux, VS Code
 
 ## 📬 Connect & Contact
 
+- **LinkedIn:** [Matheus Paixão](https://www.linkedin.com/in/matheus-paix%C3%A3o-5803b321b/?locale=pt)
 - **GitHub:** [@MatheusPaixaoP](https://github.com/MatheusPaixaoP)
-- **LinkedIn:** [Matheus Paixão](https://www.linkedin.com/)
 - **Email:** matheuscarvalhop2002@gmail.com
 
 ---
